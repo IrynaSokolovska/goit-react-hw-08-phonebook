@@ -1,5 +1,4 @@
 import { useDispatch } from 'react-redux';
-
 import { Form, Label } from './RegisterForm.styled';
 import { register } from 'redux/auth/auth-operations';
 

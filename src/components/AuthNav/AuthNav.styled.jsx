@@ -11,3 +11,7 @@ export const AuthNavLink = styled(NavLink)`
     color: #e84a5f;
   }
 `;
+// export const AuthNavWrapper = styled.div`
+//   margin-left: auto;
+//   display: flex;
+// `;

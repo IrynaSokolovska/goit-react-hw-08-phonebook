@@ -6,7 +6,6 @@ import { UserMenuWrapper, UserNameP } from './UserMenu.styled';
 export const UserMenu = () => {
   const dispatch = useDispatch();
   const { user } = useAuth();
-
   const handleLogOut = () => dispatch(logOut());
 
   return (

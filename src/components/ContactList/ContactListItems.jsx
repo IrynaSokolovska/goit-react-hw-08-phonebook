@@ -11,7 +11,7 @@ export const ContactListItems = ({ contact }) => {
   return (
     <li>
       <p>
-        {contact.name}: {contact.phone}
+        {contact.name}: {contact.number}
       </p>
       <button
         type="button"
